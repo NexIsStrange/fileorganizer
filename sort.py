@@ -26,9 +26,9 @@ ext = [{"exe":"EXE"},
         {"lnk":"LINK"}]
 
 def check_edit(extension):
-    for niggas_in_paris in ext:
-        if extension in niggas_in_paris:
-            return niggas_in_paris[extension]
+    for foo in ext:
+        if extension in foo:
+            return foo[extension]
     return None
 def organize():
  
