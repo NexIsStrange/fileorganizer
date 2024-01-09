@@ -12,7 +12,7 @@ contin = input("This cannot be undone. Are you sure to proceed? (y,n) ")
 if contin not in cont:
     print("Bye!")
     quit()
-#I have no idea how this code works
+
 
 ext = [{"exe":"EXE"},
         {"zip":"ZIP"},
