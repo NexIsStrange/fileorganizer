@@ -30,8 +30,8 @@ def check_edit(extension):
         if extension in foo:
             return foo[extension]
     return None
+    
 def organize():
- 
     items = {}
     try:
         f = os.listdir(path)
@@ -66,7 +66,7 @@ def organize():
             shutil.move(f"{path}\{name}.{extension.lower()}",f"{path}\{ext}\{name}.{extension.lower()}")
     move()
 
-for i in range(2):
+if __name__ == "__main__":
     organize()
     
 print(f"Succesfully organized {len(list_of_files)} files.")
